@@ -20,7 +20,7 @@ const Navbar = () => {
         <Link to="/">
           <img 
             src="/astrogaze-logo.png" 
-            alt="AstroGaze" 
+            alt="AstroBlaze logo" 
             style={{ 
               height: '36px', 
               width: '36px', 
@@ -30,7 +30,7 @@ const Navbar = () => {
               filter: 'drop-shadow(0 2px 8px rgba(139, 92, 246, 0.6))' 
             }} 
           />
-          AstroGaze
+          AstroBlaze
         </Link>
       </div>
       <ul className="navbar-links">

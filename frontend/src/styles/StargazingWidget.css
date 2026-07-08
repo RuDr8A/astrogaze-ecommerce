@@ -1,0 +1,67 @@
+.astro-widget {
+  background: rgba(17, 24, 39, 0.7);
+  border: 1px solid #374151;
+  border-radius: 12px;
+  padding: 1.5rem;
+  color: #e5e7eb;
+  width: 100%;
+  max-width: 450px;
+  margin: 2rem auto;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  font-family: 'Inter', sans-serif;
+}
+
+.astro-widget h3 {
+  margin-top: 0;
+  margin-bottom: 1.2rem;
+  font-size: 1.2rem;
+  color: #8B5CF6; /* AstroBlaze Purple */
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.metric {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 0.8rem;
+  border-radius: 8px;
+}
+
+.metric .label {
+  font-size: 0.75rem;
+  color: #9ca3af;
+  text-transform: uppercase;
+  margin-bottom: 0.3rem;
+}
+
+.metric .value {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #f3f4f6;
+}
+
+.status-indicator {
+  padding: 0.75rem;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: bold;
+  color: #111827;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.astro-widget.loading, .astro-widget.error {
+  text-align: center;
+  padding: 2rem;
+  font-weight: bold;
+}

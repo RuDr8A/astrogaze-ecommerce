@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import StargazingWidget from '../components/StargazingWidget';
 import ProductCard from '../components/ProductCard';
 
 const Home = () => {
@@ -23,9 +24,14 @@ const Home = () => {
   return (
     <div className="home-container">
       <div className="hero-banner">
-        <h1>Welcome to AstroGaze</h1>
+        {/* Updated branding to AstroBlaze */}
+        <h1>Welcome to AstroBlaze</h1>
         <p>Discover the best astronomy equipment for your stargazing adventures.</p>
       </div>
+      
+      
+      <StargazingWidget />
+
       <h2>Featured Products</h2>
       {loading ? (
         <div>Loading...</div>
